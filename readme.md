@@ -2,7 +2,7 @@
 
 
 [![Build
-Status](https://travis-ci.org/audy/skellington.png?branch=master)](https://travis-ci.org/audy/skellington)
+Status](https://travis-ci.org/audy/test-app.png?branch=master)](https://travis-ci.org/audy/test-app)
 
 World's Greatest Sinatra Skeleton. On the food spectrum of web app development
 frameworks, it's a tempeh burrito
