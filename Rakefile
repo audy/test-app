@@ -16,7 +16,7 @@ namespace :db do
 
   desc 'migrate the database'
   task :migrate do
-    `bundle exec sequel postgres://localhost/skellington_development --migrate-directory db/migrate`
+    `bundle exec sequel #{ENV['DATABASE_URL']} --migrate-directory db/migrate`
   end
 
   desc 'seed the database with information'
